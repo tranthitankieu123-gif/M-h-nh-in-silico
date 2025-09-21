@@ -1,0 +1,98 @@
+# Rscript Script_model_oxy.R
+Loading required package: sybil
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: ReacTran
+Loading required package: rootSolve
+Loading required package: deSolve
+Loading required package: shape
+BacArena paper: https://doi.org/10.1371/journal.pcbi.1005544
+ Tutorials: https://bacarena.github.io
+ Model import from SBML: https://github.com/euba/BacArena/wiki/Model-import
+ Development and help: https://github.com/euba/bacarena
+using GLPK version 5.0
+Loading required package: cplexAPI
+Warning message:
+In readRDS("pa.RDS") :
+  strings not representable in native encoding will be translated to UTF-8
+[1] 33  5
+Substances 214 / 214
+iteration: 1 	 organisms: 131 	 biomass: 104.3582 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa    66 50.95944 126.7316
+MRSA                      65 53.39878 125.1755
+	time total:  74.812 	diffusion:  36.053  ( 48.2 %)
+
+--------------------------------------------------------------------
+Substances 214 / 214
+iteration: 2 	 organisms: 260 	 biomass: 200.1851 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa   130  98.8452 93.96836
+MRSA                     130 101.3399 89.77940
+	time total:  82.539 	diffusion:  30.558  ( 37 %)
+
+--------------------------------------------------------------------
+Substances 214 / 214
+iteration: 3 	 organisms: 520 	 biomass: 395.5691 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa   260 196.1868 98.47884
+MRSA                     260 199.3823 96.74616
+	time total:  235.229 	diffusion:  61.117  ( 26 %)
+
+--------------------------------------------------------------------
+Substances 214 / 214
+iteration: 4 	 organisms: 1039 	 biomass: 788.3724 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa   519 392.1538 99.88794
+MRSA                     520 396.2186 98.72306
+	time total:  4855.081 	diffusion:  957.345  ( 19.7 %)
+
+--------------------------------------------------------------------
+Substances 214 / 2149
+iteration: 5 	 organisms: 2061 	 biomass: 1574.292 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa  1024 784.0052 99.92290
+MRSA                    1037 790.2864 99.45715
+	time total:  3066.832 	diffusion:  44.103  ( 1.4 %)
+
+--------------------------------------------------------------------
+Substances 214 / 2141
+iteration: 6 	 organisms: 3840 	 biomass: 3128.908 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa  1867 1553.911 98.20165
+MRSA                    1973 1574.997 99.29441
+	time total:  10016.27 	diffusion:  73.278  ( 0.7 %)
+
+--------------------------------------------------------------------
+Substances 214 / 2140
+iteration: 7 	 organisms: 5926 	 biomass: 5926.584 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa  2734 2895.845 86.35849
+MRSA                    3192 3030.738 92.42824
+	time total:  4710.424 	diffusion:  159.195  ( 3.4 %)
+
+--------------------------------------------------------------------
+Substances 214 / 2146
+iteration: 8 	 organisms: 7596 	 biomass: 9645.691 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa  3334 4516.769 55.97410
+MRSA                    4262 5128.922 69.23012
+	time total:  9497.364 	diffusion:  160.276  ( 1.7 %)
+
+--------------------------------------------------------------------
+Substances 214 / 2146
+iteration: 9 	 organisms: 8869 	 biomass: 13135.3 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa  3732 5845.261 29.41244
+MRSA                    5137 7290.038 42.13587
+	time total:  10796.85 	diffusion:  152.321  ( 1.4 %)
+
+--------------------------------------------------------------------
+Substances 214 / 2149 c
+iteration: 10 	 organisms: 9499 	 biomass: 15820.66 pg 
+                       count  biomass        %
+Pseudomonas aeruginosa  3923 6739.984 15.30682
+MRSA                    5576 9080.673 24.56277
+	time total:  14853.03 	diffusion:  147.783  ( 1 %)
+
+--------------------------------------------------------------------
